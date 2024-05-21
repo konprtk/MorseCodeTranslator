@@ -96,6 +96,7 @@ const encode = () => {
     }
   }
   output.value = morse.trim();
+  input.value = "";
 };
 
 // const decode = () => {
