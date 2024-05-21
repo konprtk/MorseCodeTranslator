@@ -96,20 +96,8 @@ const encode = () => {
     }
   }
   output.value = morse.trim();
+  input.value = "";
 };
-
-// const decode = () => {
-//   const morse = input.value;
-//   let text = "";
-
-//   for (let i = 0; i < morse.length; i++) {
-//     const code = morse[i];
-//     if (TextToMorse[code]) {
-//       text += TextToMorse[code];
-//     }
-//   }
-//   output.value = text.trim();
-// };
 
 const decode = () => {
   const morse = input.value.trim();
@@ -125,6 +113,7 @@ const decode = () => {
     }
   }
   output.value = text.trim();
+  input.value = "";
 };
 
 encodeBtn.addEventListener("click", encode);
