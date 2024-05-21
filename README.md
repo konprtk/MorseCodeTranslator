@@ -3,7 +3,7 @@
 
 This is a simple web application for encoding and decoding Morse code. It allows users to input text and convert it to Morse code, or input Morse code and convert it to text.
 
-## Want to see -> [MorseCodeTranslator](https://konprtk.github.io/MorseCodeTranslator/)
+## Want to see here [MorseCodeTranslator](https://konprtk.github.io/MorseCodeTranslator/)
 ## Features
 
 - Encode text to Morse code
